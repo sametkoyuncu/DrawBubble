@@ -13,6 +13,8 @@
 		F10558D72975A229001494DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10558D52975A229001494DD /* Main.storyboard */; };
 		F10558D92975A22A001494DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10558D82975A22A001494DD /* Assets.xcassets */; };
 		F10558DC2975A22A001494DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10558DA2975A22A001494DD /* LaunchScreen.storyboard */; };
+		F10558E42975A23A001494DD /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10558E32975A23A001494DD /* TriangleView.swift */; };
+		F10558E62975B0F8001494DD /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10558E52975B0F8001494DD /* RoundedCornerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F10558D82975A22A001494DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10558DB2975A22A001494DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10558DD2975A22A001494DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10558E32975A23A001494DD /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		F10558E52975B0F8001494DD /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F10558CF2975A229001494DD /* AppDelegate.swift */,
 				F10558D12975A229001494DD /* SceneDelegate.swift */,
 				F10558D32975A229001494DD /* ViewController.swift */,
+				F10558E32975A23A001494DD /* TriangleView.swift */,
 				F10558D52975A229001494DD /* Main.storyboard */,
 				F10558D82975A22A001494DD /* Assets.xcassets */,
 				F10558DA2975A22A001494DD /* LaunchScreen.storyboard */,
 				F10558DD2975A22A001494DD /* Info.plist */,
+				F10558E52975B0F8001494DD /* RoundedCornerView.swift */,
 			);
 			path = DrawBubble;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				F10558D42975A229001494DD /* ViewController.swift in Sources */,
 				F10558D02975A229001494DD /* AppDelegate.swift in Sources */,
+				F10558E42975A23A001494DD /* TriangleView.swift in Sources */,
+				F10558E62975B0F8001494DD /* RoundedCornerView.swift in Sources */,
 				F10558D22975A229001494DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
