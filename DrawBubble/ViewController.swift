@@ -36,9 +36,14 @@ class ViewController: UIViewController {
         imageView.leadingAnchor.constraint(equalTo: bubbleView.leadingAnchor, constant: 10).isActive = true
         imageView.trailingAnchor.constraint(equalTo: bubbleView.trailingAnchor, constant: -10).isActive = true
         imageView.bottomAnchor.constraint(equalTo: bubbleView.bottomAnchor, constant: -10).isActive = true
+        
+        let parentView = ParentView(frame: CGRect(x: 0, y: 300, width: 300, height: 200))
+        
+        parentView.addSubview(imageView)
                                     
         
         view.addSubview(triangleView)
         view.addSubview(bubbleView)
+        view.addSubview(parentView)
     }
 }

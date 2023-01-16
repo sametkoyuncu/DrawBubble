@@ -15,6 +15,7 @@
 		F10558DC2975A22A001494DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10558DA2975A22A001494DD /* LaunchScreen.storyboard */; };
 		F10558E42975A23A001494DD /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10558E32975A23A001494DD /* TriangleView.swift */; };
 		F10558E62975B0F8001494DD /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10558E52975B0F8001494DD /* RoundedCornerView.swift */; };
+		F1CDE5E02975CDDF006458A4 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CDE5DF2975CDDF006458A4 /* ParentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F10558DD2975A22A001494DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10558E32975A23A001494DD /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		F10558E52975B0F8001494DD /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		F1CDE5DF2975CDDF006458A4 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F10558DA2975A22A001494DD /* LaunchScreen.storyboard */,
 				F10558DD2975A22A001494DD /* Info.plist */,
 				F10558E52975B0F8001494DD /* RoundedCornerView.swift */,
+				F1CDE5DF2975CDDF006458A4 /* ParentView.swift */,
 			);
 			path = DrawBubble;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				F10558D02975A229001494DD /* AppDelegate.swift in Sources */,
 				F10558E42975A23A001494DD /* TriangleView.swift in Sources */,
 				F10558E62975B0F8001494DD /* RoundedCornerView.swift in Sources */,
+				F1CDE5E02975CDDF006458A4 /* ParentView.swift in Sources */,
 				F10558D22975A229001494DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
